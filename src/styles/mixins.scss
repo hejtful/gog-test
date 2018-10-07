@@ -1,0 +1,27 @@
+@import "./variables.scss";
+
+@mixin button($background, $background-active) {
+  background: $background;
+
+  &:hover, &:focus, &:active {
+    outline: 0;
+  }
+
+  &:hover, &:active, &.active {
+    background: $background-active;
+  }
+}
+
+@mixin round-button($background, $background-active, $border-color) {
+  @include button($background, $background-active);
+  border-radius: 5px;
+  border: 1px solid $border-color;
+}
+
+@mixin big-round-button($background, $background-active, $border-color) {
+  @include round-button($background, $background-active, $border-color);
+  color: #fff;
+  font-size: 14px;
+  height: $big-button-height;
+  padding: 0 20px;
+}
