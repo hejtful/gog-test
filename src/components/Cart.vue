@@ -67,6 +67,7 @@ $cart-main-color: #f7f7f7;
   border-left: 1px solid #d0d0d0;
   border-right: 1px solid #d0d0d0;
   color: #404040;
+  cursor: pointer;
   font-size: 14px;
   height: $header-height;
   padding: 0 15px;
@@ -109,5 +110,6 @@ $cart-main-color: #f7f7f7;
     linear-gradient(to top, #b65ae2 0%, #7b3dc6 100%),
     #885dbc
   );
+  cursor: pointer;
 }
 </style>

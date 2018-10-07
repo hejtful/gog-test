@@ -99,8 +99,8 @@ export default {
 }
 
 .card-label {
+  @include button(transparent, transparent);
   color: #404040;
-  background-color: transparent;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   display: inline-block;

@@ -40,6 +40,5 @@ h4 {
 h5 {
   color: #212121;
   font-size: 14px;
-  font-weight: 600;
 }
 </style>
